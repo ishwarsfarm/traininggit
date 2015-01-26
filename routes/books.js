@@ -6,15 +6,15 @@ router.use(function before(req,res,next){
     next();
   });
 
-  router.get(function(req, res) {
+  router.get('/:id/',function(req, res) {
     res.send('Get a random book');
   });
 
-  router.post(function(req, res) {
+  router.post('/:id/add',function(req, res) {
     res.send('Add a book');
   });
 
-  router.put(function(req, res) {
+  router.put('/:id/update',function(req, res) {
     res.send('Update the book');
   });
 

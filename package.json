@@ -1,5 +1,5 @@
 {
-  "name": "restmongodb",
+  "name": "nodeproject",
   "version": "1.0.0",
   "description": "creates rest based app with mongodb",
   "main": "index.js",
